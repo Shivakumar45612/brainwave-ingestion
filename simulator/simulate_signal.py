@@ -7,7 +7,7 @@ AUTH = ('admin', 'password')
 def generate_signal():
     return {
         "timestamp": datetime.utcnow().isoformat(),
-        "channels": np.random.normal(0, 1, size=8).tolist()
+        "channels": np.random.normal(-1, 1, size=8).tolist()
     }
 def run_loop():
     print("Starting signal simulation...")
