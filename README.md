@@ -8,9 +8,9 @@ Git
 pip
 
 1. Clone and Install
-git clone https://github.com/Shivakumar45612/brainwave-ingestion.git
-cd brainwave-ingestion
-pip install -r requirements.txt
+  git clone https://github.com/Shivakumar45612/brainwave-ingestion.git
+  cd brainwave-ingestion
+  pip install -r requirements.txt
 
 2. Run the Backend API
 uvicorn backend_api.main:app --reload --port 8000
